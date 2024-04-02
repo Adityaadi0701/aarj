@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body {
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    background-color:#d48f8f;
+}
+.container .tenor-gif-embed{
+    max-width:350px
+}
+.container .btn{
+    display:flex;
+    gap:25px;
+}
+.btn a{
+    text-decoration:none;
+    color:#333;
+    background:#fff;
+    padding:10px 25px;
+    border-radius:8px;
+    box-shadow:0.5rem 1rem 3rem hsl(0,0%,0%,0.3);
+}
